@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8592BE3D15816CCC00056680 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8592BE3C15816CCC00056680 /* AddressBook.framework */; };
+		8D8E087718FE589E002DA795 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8E087618FE589E002DA795 /* FacebookSDK.framework */; };
+		8D8E087918FE58AC002DA795 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D8E087818FE58AC002DA795 /* FBUserSettingsViewResources.bundle */; };
+		8D9BF5A31920AD4100DF5A0E /* FacebookSDKOverrides.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5A21920AD4100DF5A0E /* FacebookSDKOverrides.bundle */; };
+		8D9BF5AA1920AD5500DF5A0E /* action-eating.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5A51920AD5500DF5A0E /* action-eating.png */; };
+		8D9BF5AB1920AD5500DF5A0E /* action-location.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5A61920AD5500DF5A0E /* action-location.png */; };
+		8D9BF5AC1920AD5500DF5A0E /* action-people.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5A71920AD5500DF5A0E /* action-people.png */; };
+		8D9BF5AD1920AD5500DF5A0E /* action-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5A81920AD5500DF5A0E /* action-photo.png */; };
+		8D9BF5AE1920AD5500DF5A0E /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5A91920AD5500DF5A0E /* facebook.png */; };
+		8D9BF5B81920ADA800DF5A0E /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BF5B01920ADA800DF5A0E /* SCAppDelegate.m */; };
+		8D9BF5B91920ADA800DF5A0E /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BF5B21920ADA800DF5A0E /* SCLoginViewController.m */; };
+		8D9BF5BA1920ADA800DF5A0E /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5B31920ADA800DF5A0E /* SCLoginViewController.xib */; };
+		8D9BF5BB1920ADA800DF5A0E /* SCPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BF5B51920ADA800DF5A0E /* SCPhotoViewController.m */; };
+		8D9BF5BC1920ADA800DF5A0E /* SCPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5B61920ADA800DF5A0E /* SCPhotoViewController.xib */; };
+		8D9BF5BF1920ADC200DF5A0E /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BF5BE1920ADC200DF5A0E /* SCViewController.m */; };
+		8D9BF5C21920ADD100DF5A0E /* SCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5C01920ADD000DF5A0E /* SCViewController.xib */; };
+		8D9BF5C81920ADF500DF5A0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5C41920ADF500DF5A0E /* InfoPlist.strings */; };
+		8D9BF5C91920ADF500DF5A0E /* Scrumptious.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5C61920ADF500DF5A0E /* Scrumptious.strings */; };
+		8D9BF5CD1920AE1600DF5A0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5CA1920AE1600DF5A0E /* Default-568h@2x.png */; };
+		8D9BF5CE1920AE1600DF5A0E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5CB1920AE1600DF5A0E /* Default.png */; };
+		8D9BF5CF1920AE1600DF5A0E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5CC1920AE1600DF5A0E /* Default@2x.png */; };
+		8D9BF5D41920AE3200DF5A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BF5D31920AE3200DF5A0E /* main.m */; };
+		8D9BF5D61920AE8100DF5A0E /* LushButtons-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5D51920AE8100DF5A0E /* LushButtons-Info.plist */; };
+		8D9BF5DB1920AF2E00DF5A0E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5D81920AF2E00DF5A0E /* Icon-72.png */; };
+		8D9BF5DC1920AF2E00DF5A0E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5D91920AF2E00DF5A0E /* Icon.png */; };
+		8D9BF5DD1920AF2E00DF5A0E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BF5DA1920AF2E00DF5A0E /* Icon@2x.png */; };
+		9D084048169CE00B000FD49D /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9D084047169CE00B000FD49D /* ReadMe.txt */; };
+		B9C1C35915129F0E008FA5D1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C1C35815129F0E008FA5D1 /* CoreLocation.framework */; };
+		B9CD0A74150EA4DD00560A93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CD0A73150EA4DD00560A93 /* UIKit.framework */; };
+		B9CD0A76150EA4DD00560A93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CD0A75150EA4DD00560A93 /* Foundation.framework */; };
+		B9CD0A78150EA4DD00560A93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CD0A77150EA4DD00560A93 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8592BE3C15816CCC00056680 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8986C80A1890A6BA004B90DD /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		8986C80B1890A6BA004B90DD /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		8986C80C1890A6BA004B90DD /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		8986C80D1890A6BA004B90DD /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		8D8E087618FE589E002DA795 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK.framework; sourceTree = "<group>"; };
+		8D8E087818FE58AC002DA795 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		8D9BF5A21920AD4100DF5A0E /* FacebookSDKOverrides.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKOverrides.bundle; path = LushButtons/FacebookSDKOverrides.bundle; sourceTree = "<group>"; };
+		8D9BF5A51920AD5500DF5A0E /* action-eating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-eating.png"; sourceTree = "<group>"; };
+		8D9BF5A61920AD5500DF5A0E /* action-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-location.png"; sourceTree = "<group>"; };
+		8D9BF5A71920AD5500DF5A0E /* action-people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-people.png"; sourceTree = "<group>"; };
+		8D9BF5A81920AD5500DF5A0E /* action-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-photo.png"; sourceTree = "<group>"; };
+		8D9BF5A91920AD5500DF5A0E /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		8D9BF5AF1920ADA800DF5A0E /* SCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCAppDelegate.h; path = LushButtons/SCAppDelegate.h; sourceTree = "<group>"; };
+		8D9BF5B01920ADA800DF5A0E /* SCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCAppDelegate.m; path = LushButtons/SCAppDelegate.m; sourceTree = "<group>"; };
+		8D9BF5B11920ADA800DF5A0E /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLoginViewController.h; path = LushButtons/SCLoginViewController.h; sourceTree = "<group>"; };
+		8D9BF5B21920ADA800DF5A0E /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLoginViewController.m; path = LushButtons/SCLoginViewController.m; sourceTree = "<group>"; };
+		8D9BF5B31920ADA800DF5A0E /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCLoginViewController.xib; path = LushButtons/SCLoginViewController.xib; sourceTree = "<group>"; };
+		8D9BF5B41920ADA800DF5A0E /* SCPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPhotoViewController.h; path = LushButtons/SCPhotoViewController.h; sourceTree = "<group>"; };
+		8D9BF5B51920ADA800DF5A0E /* SCPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPhotoViewController.m; path = LushButtons/SCPhotoViewController.m; sourceTree = "<group>"; };
+		8D9BF5B61920ADA800DF5A0E /* SCPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCPhotoViewController.xib; path = LushButtons/SCPhotoViewController.xib; sourceTree = "<group>"; };
+		8D9BF5B71920ADA800DF5A0E /* SCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCProtocols.h; path = LushButtons/SCProtocols.h; sourceTree = "<group>"; };
+		8D9BF5BD1920ADC200DF5A0E /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCViewController.h; path = LushButtons/SCViewController.h; sourceTree = "<group>"; };
+		8D9BF5BE1920ADC200DF5A0E /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCViewController.m; path = LushButtons/SCViewController.m; sourceTree = "<group>"; };
+		8D9BF5C11920ADD000DF5A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = LushButtons/en.lproj/SCViewController.xib; sourceTree = "<group>"; };
+		8D9BF5C51920ADF500DF5A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LushButtons/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D9BF5C71920ADF500DF5A0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = LushButtons/en.lproj/Scrumptious.strings; sourceTree = "<group>"; };
+		8D9BF5CA1920AE1600DF5A0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "LushButtons/Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D9BF5CB1920AE1600DF5A0E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = LushButtons/Default.png; sourceTree = "<group>"; };
+		8D9BF5CC1920AE1600DF5A0E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "LushButtons/Default@2x.png"; sourceTree = "<group>"; };
+		8D9BF5D31920AE3200DF5A0E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LushButtons/main.m; sourceTree = "<group>"; };
+		8D9BF5D51920AE8100DF5A0E /* LushButtons-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LushButtons-Info.plist"; path = "LushButtons/LushButtons-Info.plist"; sourceTree = "<group>"; };
+		8D9BF5D71920AEBB00DF5A0E /* LushButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LushButtons-Prefix.pch"; path = "LushButtons/LushButtons-Prefix.pch"; sourceTree = "<group>"; };
+		8D9BF5D81920AF2E00DF5A0E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		8D9BF5D91920AF2E00DF5A0E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		8D9BF5DA1920AF2E00DF5A0E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		9D084047169CE00B000FD49D /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		B9C1C35815129F0E008FA5D1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B9CD0A6F150EA4DD00560A93 /* Lushbuttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lushbuttons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CD0A73150EA4DD00560A93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9CD0A75150EA4DD00560A93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9CD0A77150EA4DD00560A93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9CD0A6C150EA4DD00560A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1C35915129F0E008FA5D1 /* CoreLocation.framework in Frameworks */,
+				B9CD0A74150EA4DD00560A93 /* UIKit.framework in Frameworks */,
+				B9CD0A76150EA4DD00560A93 /* Foundation.framework in Frameworks */,
+				B9CD0A78150EA4DD00560A93 /* CoreGraphics.framework in Frameworks */,
+				8592BE3D15816CCC00056680 /* AddressBook.framework in Frameworks */,
+				8D8E087718FE589E002DA795 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8986C8091890A6BA004B90DD /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				8986C80A1890A6BA004B90DD /* Application.xcconfig */,
+				8986C80B1890A6BA004B90DD /* Project-Debug.xcconfig */,
+				8986C80C1890A6BA004B90DD /* Project-Release.xcconfig */,
+				8986C80D1890A6BA004B90DD /* Project.xcconfig */,
+			);
+			name = Configurations;
+			path = ../Configurations;
+			sourceTree = "<group>";
+		};
+		8D9BF5A11920AD2800DF5A0E /* LushButtons */ = {
+			isa = PBXGroup;
+			children = (
+				8D9BF5C31920ADE800DF5A0E /* Supporting Files */,
+				8D9BF5C01920ADD000DF5A0E /* SCViewController.xib */,
+				8D9BF5AF1920ADA800DF5A0E /* SCAppDelegate.h */,
+				8D9BF5BD1920ADC200DF5A0E /* SCViewController.h */,
+				8D9BF5BE1920ADC200DF5A0E /* SCViewController.m */,
+				8D9BF5B01920ADA800DF5A0E /* SCAppDelegate.m */,
+				8D9BF5B11920ADA800DF5A0E /* SCLoginViewController.h */,
+				8D9BF5B21920ADA800DF5A0E /* SCLoginViewController.m */,
+				8D9BF5B31920ADA800DF5A0E /* SCLoginViewController.xib */,
+				8D9BF5B41920ADA800DF5A0E /* SCPhotoViewController.h */,
+				8D9BF5B51920ADA800DF5A0E /* SCPhotoViewController.m */,
+				8D9BF5D31920AE3200DF5A0E /* main.m */,
+				8D9BF5B61920ADA800DF5A0E /* SCPhotoViewController.xib */,
+				8D9BF5B71920ADA800DF5A0E /* SCProtocols.h */,
+				8D9BF5A41920AD5500DF5A0E /* images */,
+				8D9BF5A21920AD4100DF5A0E /* FacebookSDKOverrides.bundle */,
+			);
+			name = LushButtons;
+			sourceTree = "<group>";
+		};
+		8D9BF5A41920AD5500DF5A0E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8D9BF5D81920AF2E00DF5A0E /* Icon-72.png */,
+				8D9BF5D91920AF2E00DF5A0E /* Icon.png */,
+				8D9BF5DA1920AF2E00DF5A0E /* Icon@2x.png */,
+				8D9BF5A51920AD5500DF5A0E /* action-eating.png */,
+				8D9BF5A61920AD5500DF5A0E /* action-location.png */,
+				8D9BF5A71920AD5500DF5A0E /* action-people.png */,
+				8D9BF5A81920AD5500DF5A0E /* action-photo.png */,
+				8D9BF5A91920AD5500DF5A0E /* facebook.png */,
+			);
+			name = images;
+			path = LushButtons/images;
+			sourceTree = "<group>";
+		};
+		8D9BF5C31920ADE800DF5A0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D9BF5CA1920AE1600DF5A0E /* Default-568h@2x.png */,
+				8D9BF5CB1920AE1600DF5A0E /* Default.png */,
+				8D9BF5CC1920AE1600DF5A0E /* Default@2x.png */,
+				8D9BF5D51920AE8100DF5A0E /* LushButtons-Info.plist */,
+				8D9BF5D71920AEBB00DF5A0E /* LushButtons-Prefix.pch */,
+				8D9BF5C41920ADF500DF5A0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9CD0A64150EA4DD00560A93 = {
+			isa = PBXGroup;
+			children = (
+				8D9BF5C61920ADF500DF5A0E /* Scrumptious.strings */,
+				8D9BF5A11920AD2800DF5A0E /* LushButtons */,
+				9D084047169CE00B000FD49D /* ReadMe.txt */,
+				8986C8091890A6BA004B90DD /* Configurations */,
+				B9CD0A72150EA4DD00560A93 /* Frameworks */,
+				B9CD0A70150EA4DD00560A93 /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		B9CD0A70150EA4DD00560A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CD0A6F150EA4DD00560A93 /* Lushbuttons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CD0A72150EA4DD00560A93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D8E087818FE58AC002DA795 /* FBUserSettingsViewResources.bundle */,
+				8D8E087618FE589E002DA795 /* FacebookSDK.framework */,
+				8592BE3C15816CCC00056680 /* AddressBook.framework */,
+				B9C1C35815129F0E008FA5D1 /* CoreLocation.framework */,
+				B9CD0A73150EA4DD00560A93 /* UIKit.framework */,
+				B9CD0A75150EA4DD00560A93 /* Foundation.framework */,
+				B9CD0A77150EA4DD00560A93 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9CD0A6E150EA4DD00560A93 /* LushButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CD0A90150EA4DE00560A93 /* Build configuration list for PBXNativeTarget "LushButtons" */;
+			buildPhases = (
+				B9CD0A6B150EA4DD00560A93 /* Sources */,
+				B9CD0A6C150EA4DD00560A93 /* Frameworks */,
+				B9CD0A6D150EA4DD00560A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LushButtons;
+			productName = Scrumptious;
+			productReference = B9CD0A6F150EA4DD00560A93 /* Lushbuttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9CD0A66150EA4DD00560A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B9CD0A69150EA4DD00560A93 /* Build configuration list for PBXProject "LushButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				he,
+			);
+			mainGroup = B9CD0A64150EA4DD00560A93;
+			productRefGroup = B9CD0A70150EA4DD00560A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9CD0A6E150EA4DD00560A93 /* LushButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CD0A6D150EA4DD00560A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9BF5CE1920AE1600DF5A0E /* Default.png in Resources */,
+				8D9BF5C91920ADF500DF5A0E /* Scrumptious.strings in Resources */,
+				8D9BF5AB1920AD5500DF5A0E /* action-location.png in Resources */,
+				8D9BF5A31920AD4100DF5A0E /* FacebookSDKOverrides.bundle in Resources */,
+				8D9BF5D61920AE8100DF5A0E /* LushButtons-Info.plist in Resources */,
+				8D9BF5C81920ADF500DF5A0E /* InfoPlist.strings in Resources */,
+				8D9BF5C21920ADD100DF5A0E /* SCViewController.xib in Resources */,
+				8D9BF5CD1920AE1600DF5A0E /* Default-568h@2x.png in Resources */,
+				8D9BF5AD1920AD5500DF5A0E /* action-photo.png in Resources */,
+				8D9BF5DD1920AF2E00DF5A0E /* Icon@2x.png in Resources */,
+				8D9BF5AE1920AD5500DF5A0E /* facebook.png in Resources */,
+				8D9BF5DC1920AF2E00DF5A0E /* Icon.png in Resources */,
+				8D8E087918FE58AC002DA795 /* FBUserSettingsViewResources.bundle in Resources */,
+				8D9BF5DB1920AF2E00DF5A0E /* Icon-72.png in Resources */,
+				9D084048169CE00B000FD49D /* ReadMe.txt in Resources */,
+				8D9BF5CF1920AE1600DF5A0E /* Default@2x.png in Resources */,
+				8D9BF5BA1920ADA800DF5A0E /* SCLoginViewController.xib in Resources */,
+				8D9BF5AA1920AD5500DF5A0E /* action-eating.png in Resources */,
+				8D9BF5BC1920ADA800DF5A0E /* SCPhotoViewController.xib in Resources */,
+				8D9BF5AC1920AD5500DF5A0E /* action-people.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9CD0A6B150EA4DD00560A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9BF5D41920AE3200DF5A0E /* main.m in Sources */,
+				8D9BF5B81920ADA800DF5A0E /* SCAppDelegate.m in Sources */,
+				8D9BF5BB1920ADA800DF5A0E /* SCPhotoViewController.m in Sources */,
+				8D9BF5BF1920ADC200DF5A0E /* SCViewController.m in Sources */,
+				8D9BF5B91920ADA800DF5A0E /* SCLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D9BF5C01920ADD000DF5A0E /* SCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9BF5C11920ADD000DF5A0E /* en */,
+			);
+			name = SCViewController.xib;
+			sourceTree = "<group>";
+		};
+		8D9BF5C41920ADF500DF5A0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9BF5C51920ADF500DF5A0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D9BF5C61920ADF500DF5A0E /* Scrumptious.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9BF5C71920ADF500DF5A0E /* en */,
+			);
+			name = Scrumptious.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9CD0A8E150EA4DE00560A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8986C80B1890A6BA004B90DD /* Project-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B9CD0A8F150EA4DE00560A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8986C80C1890A6BA004B90DD /* Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B9CD0A91150EA4DE00560A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8986C80A1890A6BA004B90DD /* Application.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/senthil/Dev/iOS/FacebookSDK,
+				);
+			};
+			name = Debug;
+		};
+		B9CD0A92150EA4DE00560A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8986C80A1890A6BA004B90DD /* Application.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/senthil/Dev/iOS/FacebookSDK,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CD0A69150EA4DD00560A93 /* Build configuration list for PBXProject "LushButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CD0A8E150EA4DE00560A93 /* Debug */,
+				B9CD0A8F150EA4DE00560A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CD0A90150EA4DE00560A93 /* Build configuration list for PBXNativeTarget "LushButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CD0A91150EA4DE00560A93 /* Debug */,
+				B9CD0A92150EA4DE00560A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9CD0A66150EA4DD00560A93 /* Project object */;
+}
